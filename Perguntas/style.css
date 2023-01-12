@@ -248,4 +248,8 @@ a {
 
   }
 
+  .button {
+    width: auto;
+  }
+
 }
