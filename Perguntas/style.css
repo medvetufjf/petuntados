@@ -234,22 +234,16 @@ a {
 
 @media (max-width:641px)  { 
 
-  .containerFilheiraDeQuestoes {
-    flex: 1;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    margin: 10% 0px 0px 40%;
-  } 
-
-  .containerFilheiraDeQuestoes > div > div {
-
-    margin: -5px;
-
+  .buttonQuestoes {
+    width: 27px;
+    font-size: smaller;
+    height: 27px;
+    margin: 15px 5px;
   }
 
   .button {
     width: auto;
+    min-width: 300px;
   }
 
 }
