@@ -218,6 +218,8 @@ a {
   margin: 10px;
 }
 
+
+
 .buttonQuestoes:hover {
   cursor: pointer;
   transform: scale(1.1);
@@ -227,4 +229,23 @@ a {
   border-radius: 5px;
   vertical-align: middle;
   background-color: orange;
+}
+
+
+@media (min-width:641px)  { 
+
+  .containerFilheiraDeQuestoes {
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10% 0px 0px 40%;
+  } 
+
+  .containerFilheiraDeQuestoes > div > div {
+
+    margin: -5px;
+
+  }
+
 }
