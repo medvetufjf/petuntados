@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PETuntados</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet" />
+    <script type="text/javascript" src="./script.js"></script>
+</head>
+
+<body>
+    <div class="containerFilheiraDeQuestoes">
+        <div class="containerQuestoes">
+            <div>
+                <a class="buttonQuestoes" href="./Questao1.html">
+                    <p>
+                        1
+                    </p>
+                </a>
+            </div>
+            <div>
+                <a class="buttonQuestoes" href="./Questao2.html">
+                    <p>
+                        2
+                    </p>
+                </a>
+            </div>
+            <div>
+                <a class="buttonQuestoes" href="./Questao3.html">
+                    <p>
+                        3
+                    </p>
+                </a>
+            </div>
+            <div>
+                <a class="buttonQuestoes" href="./Questao4.html">
+                    <p>
+                        4
+                    </p>
+                </a>
+            </div>
+            <div>
+                <a class="buttonQuestoes" href="./Questao5.html">
+                    <p>
+                        5
+                    </p>
+                </a>
+            </div>
+            <div>
+                <a class="buttonQuestoes" href="./Questao6.html">
+                    <p>
+                        6
+                    </p>
+                </a>
+            </div>
+            <div>
+                <a class="buttonQuestoes" href="./Questao7.html">
+                    <p>
+                        7
+                    </p>
+                </a>
+            </div>
+            <div>
+                <a class="buttonQuestoes" href="./Questao8.html">
+                    <p>
+                        8
+                    </p>
+                </a>
+            </div>
+            <div>
+                <a class="buttonQuestoes" href="./Questao9.html">
+                    <p>
+                        9
+                    </p>
+                </a>
+            </div>
+            <div>
+                <a class="buttonQuestoes" href="./Questao10.html">
+                    <p>
+                        10
+                    </p>
+                </a>
+            </div>
+        </div>
+        <div class="containerQuestoes">
+            <div>
+                <a class="buttonQuestoes" href="./Questao11.html">
+                    <p>
+                        11
+                    </p>
+                </a>
+            </div>
+            <div>
+                <a class="buttonQuestoes" href="./Questao12.html">
+                    <p>
+                        12
+                    </p>
+                </a>
+            </div>
+            <div>
+                <a class="buttonQuestoes" href="./Questao13.html" style="background-color: orange !important;">
+                    <p>
+                        13
+                    </p>
+                </a>
+            </div>
+            <div>
+                <a class="buttonQuestoes" href="./Questao14.html">
+                    <p>
+                        14
+                    </p>
+                </a>
+            </div>
+            <div>
+                <a class="buttonQuestoes" href="./Questao15.html">
+                    <p>
+                        15
+                    </p>
+                </a>
+            </div>
+            <div>
+                <a class="buttonQuestoes" href="./Questao16.html">
+                    <p>
+                        16
+                    </p>
+                </a>
+            </div>
+            <div>
+                <a class="buttonQuestoes" href="./Questao17.html">
+                    <p>
+                        17
+                    </p>
+                </a>
+            </div>
+            <div>
+                <a class="buttonQuestoes" href="./Questao18.html">
+                    <p>
+                        18
+                    </p>
+                </a>
+            </div>
+            <div>
+                <a class="buttonQuestoes" href="./Questao19.html">
+                    <p>
+                        19
+                    </p>
+                </a>
+            </div>
+            <div>
+                <a class="buttonQuestoes" href="./Questao20.html">
+                    <p>
+                        20
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="containerPerguntasERespostas">
+        <div class="containerPergunta">
+            <div>
+                <p>
+                    O que é a Febre do Oeste do Nilo?
+                </p>
+            </div>
+        </div>
+        <div class="containerRespostas">
+            <div>
+                <div>
+                    <button class="button" onclick="processarPergunta(id)" id="respostaErrada_1">
+                        <p>Uma doença bacteriana, causada por um arbovírus que acomete seres humanos, aves e equinos.</p>
+                    </button>
+                </div>
+                <div>
+                    <button class="button" onclick="processarPergunta(id)" id="respostaErrada_2">
+                        <p>Uma doença viral, causada por um arbovírus que acomete apenas seres humanos.</p>
+                    </button>
+                </div>
+                <div>
+                    <button class="button" onclick="processarPergunta(id)" id="respostaCerta">
+                        <p>Uma doença viral, causada por um arbovírus que acomete seres humanos, aves e equinos.</p>
+                    </button>
+                </div>
+                <div>
+                    <button class="button" onclick="processarPergunta(id)" id="respostaErrada_3">
+                        <p>Uma doença viral, causada por um arbovírus que acomete apenas aves. </p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="containerButtonPerguntas">
+        <div class="containerButtonAnterior">
+            <a class="buttonPergunta" href="./Questao12.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z" />
+                </svg>
+                <p>
+                    Anterior
+                </p>
+            </a>
+        </div>
+        <div class="containerButtonProxima">
+            <a class="buttonPergunta" href="./Questao14.html">
+                <p>
+                    Proxima
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z" />
+                </svg>
+            </a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="numeroDeQuestoes">
+            <p class="letrasFooter">
+                Questão 13/20
+            </p>
+        </div>
+        <div class="nomePetuntados">
+            <p class="letrasFooter">
+                PETuntados
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

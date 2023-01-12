@@ -1,0 +1,230 @@
+.button {
+  background-color: #8c52ff;
+  size: 25px;
+  border: 0;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  vertical-align: middle;
+  width: 800px;
+  height: 170px;
+  margin: 1% 1% 0 0;
+  transition: transform 300ms;
+  transition-timing-function: ease-out;
+  padding: 5%;
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 5px #0a0000;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  vertical-align: middle;
+  background-color: orange;
+}
+
+.containerPerguntasERespostas {
+  flex-direction: column;
+  width: 70%;
+  display: flex;
+  background-color: #4b426f;
+  border-radius: 15px;
+  padding: 2.5%;
+  padding-top: 2%;
+  margin: 1% 4% 4% 4%;
+}
+
+.containerPergunta {
+  justify-content: flex-start;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.containerRespostas {
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  vertical-align: middle;
+  flex: 1;
+  display: flex;
+  background-color: #7c3cfc;
+  margin: 0;
+  padding: 0;
+}
+
+.imagemPergunta {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  vertical-align: middle;
+  color: #fff;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 800;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  vertical-align: middle;
+  margin-top: 0;
+  padding-top: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #4b426f;
+}
+
+.numeroDeQuestoes {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+  padding: 0.1%;
+  padding-left: 0.5%;
+}
+
+.nomePetuntados {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  padding: 0.1%;
+  padding-right: 0.5%;
+}
+
+.letrasFooter {
+  font-size: small;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.buttonPergunta {
+  color: #fff;
+  size: 25px;
+  background-color: #8c52ff;
+  border: 0;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  vertical-align: middle;
+  width: 250px;
+  height: 50px;
+  transition: transform 300ms;
+  transition-timing-function: ease-out;
+  padding: 5%;
+}
+
+.buttonPergunta:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 5px #0a0000;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+.containerButtonPerguntas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 0 3.5% 0;
+}
+
+.containerButtonProxima {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+.containerButtonAnterior {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+.imgContainer {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.containerFilheiraDeQuestoes{
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1% 0 0 0
+}
+.containerQuestoes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.buttonQuestoes {
+  background-color: #8c52ff;
+  size: 25px;
+  border: 0;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  transition: transform 300ms;
+  transition-timing-function: ease-out;
+  margin: 10px;
+}
+
+.buttonQuestoes:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 5px #0a0000;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  vertical-align: middle;
+  background-color: orange;
+}
